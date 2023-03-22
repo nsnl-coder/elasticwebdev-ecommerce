@@ -1,7 +1,13 @@
+import GlobalNotification from './GlobalNotification';
+import MainHeader from './MainHeader';
+import SubHeader from './SubHeader';
+
 function Header(): JSX.Element {
   return (
     <header>
-      <h1> Header </h1>
+      <GlobalNotification />
+      <SubHeader />
+      <MainHeader />
     </header>
   );
 }
