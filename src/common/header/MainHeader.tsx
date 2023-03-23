@@ -22,7 +22,7 @@ function MainHeader(): JSX.Element {
           </div>
         </div>
         <div className="flex items-center gap-x-4 py-6">
-          <Link href="/">
+          <Link href="/auth/login">
             <BsPerson size={24} />
           </Link>
           <Link href="/">

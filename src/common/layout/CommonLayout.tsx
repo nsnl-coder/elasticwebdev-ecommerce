@@ -1,6 +1,7 @@
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import SideBar from '../header/SideBar';
+import Newletter from '../newsletter/NewsLetter';
 
 interface Props {
   children: JSX.Element;
@@ -15,7 +16,10 @@ function CommonLayout(props: Props): JSX.Element {
           <Header />
           {props.children}
         </div>
-        <Footer />
+        <div>
+          <Newletter />
+          <Footer />
+        </div>
       </div>
       <div className="drawer-side">
         <label htmlFor="side-drawer" className="drawer-overlay"></label>
