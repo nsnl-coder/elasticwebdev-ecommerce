@@ -10,7 +10,7 @@ function NewsLetter(): JSX.Element {
             Get our emails for info on new items, sales and more.
           </h3>
           <p className="text-custom-gray">
-            We'll email you a voucher worth £10 off your first order over £50.
+            We will email you a voucher worth £10 off your first order over £50.
           </p>
           <SubscribeForm />
         </div>
